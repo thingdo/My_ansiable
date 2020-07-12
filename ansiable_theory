@@ -1,0 +1,10 @@
+-u 指定用户
+-k 指定密码
+-s sudo root
+-U sudo 指定用户
+
+
+
+
+#ansible-playbook  <playbook_name.yaml>  -u <user_name>  -k  -s
+#ansible-playbook  -i  <file>   -m  "ping www.baidu.com"
